@@ -7,6 +7,7 @@ namespace tpic_receiver_function
 {
     public static class Function1
     {
+		// read this key from config
          const string TopicName = "first-topic";
         const string SubscriptionName = "sub-b";
         [FunctionName("Function1")]

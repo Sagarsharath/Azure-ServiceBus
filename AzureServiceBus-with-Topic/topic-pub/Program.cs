@@ -9,6 +9,7 @@ namespace CoreSenderApp
 
     class Program
     {
+		// read this key from config
         const string ServiceBusConnectionString = "Endpoint=sb://topics-service-bus.servicebus.windows.net/;SharedAccessKeyName=first-policy;SharedAccessKey=cU4aCAjzYAtYqPSUBD08BB4sstBlltCQ9iZb3KRRPNE=";
         const string TopicName = "first-topic";
         static ITopicClient topicClient;
