@@ -9,7 +9,7 @@ namespace mocro_receiver
 
     class Program
     {
-        const string ServiceBusConnectionString = "<Connection string for your service bus>";
+        const string ServiceBusConnectionString = "<Connection string for your service bus>"; // read from config
         const string QueueName = "<your queue name>";
         static IQueueClient queueClient;
 
